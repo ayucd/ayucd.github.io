@@ -1,7 +1,40 @@
+
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: "Ayushi Chaudhary"
+subtitle: "Product Manager · Developer · Writer"
+excerpt: "I build meaningful products and write about tech, creativity, and life."
+header:
+  overlay_color: "#001f3f"  # navy blue
+  overlay_filter: "0.4"
+  overlay_image: /assets/images/header-background.jpg
+  actions:
+    - label: "View My Work"
+      url: "/portfolio/"
+    - label: "Read Blog"
+      url: "/blog/"
+feature_row:
+  - image_path: /assets/images/feature1.jpg
+    alt: "Project 1"
+    title: "Projects"
+    excerpt: "Explore my portfolio of product, tech, and design work."
+    url: "/portfolio/"
+    btn_label: "See Portfolio"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feature2.jpg
+    alt: "Writing"
+    title: "Writing"
+    excerpt: "Read essays and articles on product, creativity, and growth."
+    url: "/blog/"
+    btn_label: "Read Blog"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feature3.jpg
+    alt: "About Me"
+    title: "About Me"
+    excerpt: "Get to know me, my background, and what drives my work."
+    url: "/about/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row %}
