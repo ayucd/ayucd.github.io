@@ -1,9 +1,7 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Work and Projects"
+    url: /work/
+  - title: "Book Reviews"
+    url: /book-reviews/
+  - title: "Contact"
+    url: /contact/
