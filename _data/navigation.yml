@@ -1,7 +1,11 @@
 main:
-  - title: "Work and Projects"
-    url: /work/
-  - title: "Book Reviews"
-    url: /book-reviews/
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Portfolio"
+    url: "/portfolio/"
+  - title: "Blog"
+    url: "/blog/"
   - title: "Contact"
-    url: /contact/
+    url: "/contact/"
